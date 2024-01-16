@@ -123,7 +123,7 @@
       "name": "Comment Markup Link",
       "scope": "comment markup.link",
       "settings": {
-        "foreground": "#717171"
+        "foreground": "#474747"
       }
     },
     {
@@ -792,7 +792,7 @@
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "italic bold underline",
         "foreground": "#ffffff"
       }
     },
@@ -800,7 +800,7 @@
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "italic bold underline",
         "foreground": "#00ffff"
       }
     },
@@ -1706,7 +1706,7 @@
         "beginning.punctuation.definition.list.markdown.xi"
       ],
       "settings": {
-        "foreground": "#717171"
+        "foreground": "#474747"
       }
     },
     {
@@ -1751,7 +1751,7 @@
         "punctuation.definition.tag.xi"
       ],
       "settings": {
-        "foreground": "#717171"
+        "foreground": "#474747"
       }
     },
     {
@@ -1790,14 +1790,14 @@
       "scope": "comment, punctuation.definition.comment",
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#717171"
+        "foreground": "#474747"
       }
     },
     {
       "name": "[VSCODE-CUSTOM] Markdown Quote",
       "scope": "markup.quote.markdown",
       "settings": {
-        "foreground": "#717171"
+        "foreground": "#474747"
       }
     },
     {
@@ -1852,8 +1852,8 @@
     "activityBar.foreground": "#00ff9f",
     "activityBar.background": "#000000",
     "activityBar.inactiveForeground": "#474747",
-    "activityBarBadge.foreground": "#ffffff",
-    "activityBarBadge.background": "#ff008f",
+    "activityBarBadge.foreground": "#00ff9f",
+    "activityBarBadge.background": "#300099",
     "activityBar.border": "#000000",
     "activityBar.activeBackground": "#000000",
     "sideBar.background": "#000000",
@@ -1943,6 +1943,7 @@
     "editor.wordHighlightBorder": "#00ff9f",
     "editor.lineHighlightBackground": "#000000",
     "editor.lineHighlightBorder": "#151515",
+    "editor.selectionForeground": "#DDDDDD",
     "editorLineNumber.activeForeground": "#ffd700",
     "editorLink.activeForeground": "#00ffb7",
     "editorIndentGuide.background1": "#00ffb7",
@@ -1954,7 +1955,7 @@
     "editorOverviewRuler.background": "#000000",
     "editorOverviewRuler.border": "#000000",
     "editorError.foreground": "#ff0000",
-    "editorError.background": "#5a0000",
+    "editorError.background": "#360000",
     "editorError.border": "#000000",
     "editorWarning.foreground": "#ffd700",
     "editorWarning.background": "#3f3500",
@@ -1977,8 +1978,8 @@
     "panelTitle.activeBorder": "#ffbf00",
     "panelTitle.activeForeground": "#ffbf00",
     "panelTitle.inactiveForeground": "#303030",
-    "badge.background": "#ff008f",
-    "badge.foreground": "#ffffff",
+    "badge.background": "#300099",
+    "badge.foreground": "#00ff9f",
     "terminal.foreground": "#ffffff",
     "terminal.selectionBackground": "#73737340",
     "terminalCursor.background": "#565656",
@@ -2012,7 +2013,7 @@
     "tab.activeBorder": "#000000",
     "tab.activeBorderTop": "#000000",
     "tab.inactiveBackground": "#000000",
-    "tab.inactiveForeground": "#fdfdfd80",
+    "tab.inactiveForeground": "#303030",
     "tab.hoverBackground": "#000000",
     "tab.hoverForeground": "#00ffff",
     "tab.hoverBorder": "#000000",
