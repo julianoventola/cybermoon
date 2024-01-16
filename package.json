@@ -1,0 +1,38 @@
+{
+  "name": "cybermoon-theme",
+  "displayName": "Cybermoon Theme",
+  "description": "A high contrast dark theme",
+  "publisher": "Juliano Ventola",
+  "author": {
+    "name": "Juliano Ventola"
+  },
+  "icon": "image/icon.png",
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  },
+  "pricing": "Free",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes",
+    "Programming Languages"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "high contrast",
+    "cybermoon"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cybermoon",
+        "uiTheme": "hc-black",
+        "path": "./themes/Cybermoon-color-theme.json"
+      }
+    ]
+  }
+}
