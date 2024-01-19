@@ -1,11 +1,19 @@
 # Change Log
 
+## 1.0.3
+
+- Adjusts CSS colors
+
+## 1.0.2
+
 - Color adjustment for better visibility
 - Update editor color organization
 - Improved editor selection color
 - Improved background colors for errors, warnings and information
 - Adjusts in Git diff colors
 - Updated status bar to match side bar
+
+## 1.0.0
 
 - Update editor selection foreground and badge
 
