@@ -186,14 +186,14 @@
       "name": "math js/ts",
       "scope": "support.constant.math",
       "settings": {
-        "foreground": "#00ff00"
+        "foreground": "#00ffff"
       }
     },
     {
       "name": "math property js/ts",
       "scope": "support.constant.property.math",
       "settings": {
-        "foreground": "#ff26a0"
+        "foreground": "#ffd700"
       }
     },
     {
@@ -315,7 +315,7 @@
       "name": "css property-name",
       "scope": "support.type.vendored.property-name.css",
       "settings": {
-        "foreground": "#ff0000"
+        "foreground": "#00ffff"
       }
     },
     {
@@ -792,16 +792,16 @@
       "name": "Attribute IDs",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "fontStyle": "italic bold underline",
-        "foreground": "#ffffff"
+        "fontStyle": "italic",
+        "foreground": "#00ff00"
       }
     },
     {
       "name": "Attribute class",
       "scope": "entity.other.attribute-name.class.css",
       "settings": {
-        "fontStyle": "italic bold underline",
-        "foreground": "#ff26a0"
+        "fontStyle": "italic",
+        "foreground": "#ff8300"
       }
     },
     {
@@ -1491,7 +1491,7 @@
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "#ff0000"
+        "foreground": "#00ffff"
       }
     },
     {
