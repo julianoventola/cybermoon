@@ -10,7 +10,7 @@
       "foreground": "#ff26a0"
     },
     "variable.defaultLibrary": {
-      "foreground": "#00ff00"
+      "foreground": "#ffffff"
     }
   },
   "tokenColors": [
@@ -32,7 +32,14 @@
       "name": "haskell storage type",
       "scope": "storage.type.haskell",
       "settings": {
-        "foreground": "#ff26a0"
+        "foreground": "#ff8300"
+      }
+    },
+    {
+      "name": "haskell source color",
+      "scope": "source.haskell",
+      "settings": {
+        "foreground": "#af54ff"
       }
     },
     {
@@ -53,7 +60,7 @@
       "name": "variable.parameter.function.language.special.self.python",
       "scope": "variable.parameter.function.language.special.self.python",
       "settings": {
-        "foreground": "#00ff00"
+        "foreground": "#ff26a0"
       }
     },
     {
@@ -82,6 +89,13 @@
       "scope": "variable.language.rust",
       "settings": {
         "foreground": "#af54ff"
+      }
+    },
+    {
+      "name": "entity name type rust",
+      "scope": "entity.name.type.rust",
+      "settings": {
+        "foreground": "#ffffff"
       }
     },
     {
@@ -200,7 +214,7 @@
       "name": "js/ts variable.other.constant",
       "scope": "variable.other.constant",
       "settings": {
-        "foreground": "#00ff00"
+        "foreground": "#00ff9f"
       }
     },
     {
@@ -336,7 +350,7 @@
       "name": "js variable readwrite",
       "scope": "variable.other.readwrite,meta.object-literal.key,support.variable.property,support.variable.object.process,support.variable.object.node",
       "settings": {
-        "foreground": "#af54ff"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -353,7 +367,7 @@
         "keyword.operator.new",
         "keyword.operator.ternary",
         "keyword.operator.optional",
-        "keyword.operator.expression.keyof"
+        "keyword.operator.expression.keyof",
       ],
       "settings": {
         "foreground": "#00ffff"
@@ -599,7 +613,7 @@
         "variable.function"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#00ffff"
       }
     },
     {
@@ -613,7 +627,7 @@
       "name": "Classes",
       "scope": "support.class, entity.name.type.class",
       "settings": {
-        "foreground": "#00ff00"
+        "foreground": "#00ff00",
       }
     },
     {
@@ -650,9 +664,13 @@
     },
     {
       "name": "Keyword Control",
-      "scope": "keyword.control",
+      "scope": [
+        "keyword.control",
+        "storage.modifier.async.js.jsx",
+        "keyword.control.flow.js"
+      ],
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#ff8300"
       }
     },
     {
@@ -673,14 +691,14 @@
       "name": "Storage",
       "scope": "storage",
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#af54ff"
       }
     },
     {
       "name": "Storage JS TS",
       "scope": "token.storage",
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#af54ff"
       }
     },
     {
@@ -757,7 +775,7 @@
       "name": "Integers",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "#ff26a0"
+        "foreground": "#ff8300"
       }
     },
     {
@@ -786,6 +804,13 @@
       "scope": "entity.other.attribute-name",
       "settings": {
         "foreground": "#ff26a0"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": "entity.other.attribute-name.js",
+      "settings": {
+        "foreground": "#ff8300"
       }
     },
     {
@@ -1262,7 +1287,7 @@
       "name": "ts primitive/builtin types",
       "scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
       "settings": {
-        "foreground": "#00ff00"
+        "foreground": "#ff26a0"
       }
     },
     {
@@ -1318,7 +1343,7 @@
         "punctuation.section.embedded"
       ],
       "settings": {
-        "foreground": "#00ffff"
+        "foreground": "#ff0000"
       }
     },
     {
@@ -1369,10 +1394,40 @@
     {
       "name": "js func parameter",
       "scope": [
-        "variable.parameter.function.js"
+        "variable.parameter"
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "Storage JS",
+      "scope": [
+        "storage.type.js",
+        "meta.var.expr.js",
+        "meta.block.js",
+        "meta.arrow.js",
+        "meta.object.member.js",
+        "meta.objectliteral.js",
+        "source.js",
+        "keyword.control.flow.js",
+        "meta.block.js",
+        "meta.arrow.js",
+        "meta.object.member.js",
+        "meta.objectliteral.js",
+        "source.js",
       ],
       "settings": {
         "foreground": "#af54ff"
+      }
+    },
+    {
+      "name": "meta JS",
+      "scope": [
+        "keyword.control.flow.js",
+      ],
+      "settings": {
+        "foreground": "#ff8300"
       }
     },
     {
@@ -1842,7 +1897,257 @@
       "settings": {
         "fontStyle": "italic"
       }
-    }
+    },
+    {
+      "name": "js variable documentation",
+      "scope": [
+        "variable.other.jsdoc",
+        "comment.block.documentation.js",
+        "meta.objectliteral.js",
+        "source.js"
+      ],
+      "settings": {
+        "foreground": "#ffd700dd"
+      }
+    },
+    {
+      "name": "js type documentation",
+      "scope": [
+        "entity.name.type.instance.jsdoc",
+        "comment.block.documentation.js",
+        "meta.objectliteral.js",
+        "source.js",
+      ],
+      "settings": {
+        "foreground": "#ff26a0dd"
+      }
+    },
+    {
+      "name": "js text documentation",
+      "scope": [
+        "storage.type.class.jsdoc",
+        "comment.block.documentation.js",
+        "meta.objectliteral.js",
+        "source.js",
+      ],
+      "settings": {
+        "foreground": "#474747"
+      }
+    },
+    {
+      "name": "js numeric color",
+      "scope": [
+        "constant.numeric.decimal.js",
+      ],
+      "settings": {
+        "foreground": "#ff8300"
+      }
+    },
+    {
+      "name": "js support function color",
+      "scope": [
+        "support.function.js",
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "js this keyword color",
+      "scope": [
+        "variable.language.this.js",
+      ],
+      "settings": {
+        "foreground": "#ff8300",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "js true/false keyword color",
+      "scope": [
+        "constant.language.boolean.true.js",
+        "constant.language.boolean.false.js",
+      ],
+      "settings": {
+        "foreground": "#ffffff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "json numeric color",
+      "scope": [
+        "constant.numeric.json",
+      ],
+      "settings": {
+        "foreground": "#00ffff"
+      }
+    },
+    {
+      "name": "json language color",
+      "scope": [
+        "constant.language.json",
+      ],
+      "settings": {
+        "foreground": "#ffffff"
+      }
+    },
+    {
+      "name": "css numeric color",
+      "scope": [
+        "constant.numeric.css",
+      ],
+      "settings": {
+        "foreground": "#00ffff"
+      }
+    },
+    {
+      "name": "css transformation color",
+      "scope": [
+        "support.function.transform.css",
+      ],
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "name": "html punctuation color",
+      "scope": [
+        "punctuation.definition.entity.html",
+      ],
+      "settings": {
+        "foreground": "#ff8300"
+      }
+    },
+    {
+      "name": "html constants character named color",
+      "scope": [
+        "constant.character.entity.named",
+      ],
+      "settings": {
+        "foreground": "#ff8300"
+      }
+    },
+    {
+      "name": "html constants character numeric color",
+      "scope": [
+        "constant.character.entity.numeric",
+      ],
+      "settings": {
+        "foreground": "#ff8300",
+      }
+    },
+    {
+      "name": "ignore files",
+      "scope": [
+        "source.ignore",
+      ],
+      "settings": {
+        "foreground": "#00ffff",
+      }
+    },
+    {
+      "name": "Support function python",
+      "scope": [
+        "support.function.magic.python",
+      ],
+      "settings": {
+        "foreground": "#00ff9f",
+      }
+    },
+    {
+      "name": "C/C++ primivite type color",
+      "scope": [
+        "storage.type.built-in.primitive.cpp",
+        "storage.type.built-in.primitive.c"
+      ],
+      "settings": {
+        "foreground": "#ff26a0",
+      }
+    },
+    {
+      "name": "java primivite type color",
+      "scope": [
+        "storage.type.primitive.java",
+      ],
+      "settings": {
+        "foreground": "#ff26a0",
+      }
+    },
+    {
+      "name": "php punctuation definition color",
+      "scope": [
+        "punctuation.definition.variable.php",
+      ],
+      "settings": {
+        "foreground": "#ff26a0",
+      }
+    },
+    {
+      "name": "php variable color",
+      "scope": [
+        "variable.other.php",
+      ],
+      "settings": {
+        "foreground": "#ffffff",
+      }
+    },
+    {
+      "name": "sass/css keyword color",
+      "scope": [
+        "punctuation.definition.keyword.scss",
+        "punctuation.definition.keyword.css"
+      ],
+      "settings": {
+        "foreground": "#00ff9f",
+      }
+    },
+    {
+      "name": "sass variable color",
+      "scope": [
+        "variable.scss",
+      ],
+      "settings": {
+        "foreground": "#7070ff",
+      }
+    },
+    {
+      "name": "golang function color",
+      "scope": [
+        "support.function.go",
+      ],
+      "settings": {
+        "foreground": "#00ff9f",
+      }
+    },
+    {
+      "name": "ruby def/class color",
+      "scope": [
+        "keyword.control.class.ruby",
+        "keyword.control.def.ruby",
+        "keyword.control.ruby"
+      ],
+      "settings": {
+        "foreground": "#af54ff",
+      }
+    },
+    {
+      "name": "ruby function color",
+      "scope": [
+        "support.function.kernel.ruby",
+      ],
+      "settings": {
+        "foreground": "#ff26a0",
+      }
+    },
+    {
+      "name": "sql source color",
+      "scope": [
+        "source.sql",
+      ],
+      "settings": {
+        "foreground": "#af54ff",
+      }
+    },
   ],
   "colors": {
     "foreground": "#00ff9f",
@@ -1894,7 +2199,7 @@
     "titleBar.inactiveBackground": "#000000",
     "titleBar.inactiveForeground": "#151515",
     "titleBar.border": "#000000",
-    "menubar.selectionForeground": "#474747",
+    "menubar.selectionForeground": "#ffffff",
     "menubar.selectionBackground": "#151515",
     "menubar.selectionBorder": "#000000",
     "menu.foreground": "#00ff9f",
@@ -1923,8 +2228,8 @@
     "editorLineNumber.foreground": "#ffffff3a",
     "editorCursor.foreground": "#00ffff",
     "editorCursor.background": "#ffffff",
-    "editor.selectionForeground": "#00ffb7",
-    "editor.selectionBackground": "#151515",
+    "editor.selectionForeground": "#00ff9f",
+    "editor.selectionBackground": "#303030",
     "editor.inactiveSelectionBackground": "#300099",
     "editorWhitespace.foreground": "#ffffff1e",
     "editor.selectionHighlightBackground": "#300099",
@@ -1955,13 +2260,13 @@
     "editorOverviewRuler.background": "#000000",
     "editorOverviewRuler.border": "#000000",
     "editorError.foreground": "#ff0000",
-    "editorError.background": "#300099",
+    "editorError.background": "#000000",
     "editorError.border": "#ff0000",
     "editorWarning.foreground": "#ffd700",
-    "editorWarning.background": "#300099",
+    "editorWarning.background": "#000000",
     "editorWarning.border": "#ffd700",
     "editorInfo.foreground": "#00abff",
-    "editorInfo.background": "#300099",
+    "editorInfo.background": "#000000",
     "editorInfo.border": "#00abff",
     "editorGutter.background": "#000000",
     "editorGutter.modifiedBackground": "#00abff",
@@ -2065,7 +2370,7 @@
     "editorSuggestWidget.selectedBackground": "#300099",
     "editorHoverWidget.foreground": "#ffffff",
     "editorHoverWidget.background": "#000000",
-    "editorHoverWidget.border": "#ffd700",
+    "editorHoverWidget.border": "#ffffffee",
     "peekView.border": "#00ff9f",
     "peekViewEditor.background": "#000000",
     "peekViewEditorGutter.background": "#000000",
