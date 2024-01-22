@@ -15,11 +15,13 @@ A High dark contrast theme for Visual Studio Code.
 
 ## Color Problem 👻
 
-Every color is used more than once generally for the same purpose, this makes it very difficult to update a color that looks great in HTML, without it becoming tiring in Javascript.
+Every color is used more than once generally for the same purpose(ex: classes for every language), this makes it very difficult to update a color that looks great in HTML, without it becoming tiring in Javascript.
 
-If you want to contribute/suggest a color change, I recommend looking inside the "themes" folder, inside the JSON file, to see that in 1200 lines the same color is used for different languages.
+If you want to contribute/suggest a color change, I recommend looking inside the "themes" folder, inside the JSON file, to see that in more than 1200 lines the same color is used for different languages.
 
-I tested the colors with HTML, CSS, Javascript, Dockerfile, Json and Markdown, so several languages are missing. I ask that you test combinations before suggesting changes.
+I tested the colors with HTML, CSS, Javascript, Dockerfile, Json and Markdown, so several languages are still being updated. I ask that you test combinations before suggesting changes.
+
+Also, there are some scopes that i was not abble to change due vscode limitations.
 
 Thank you for your attention 😁
 
