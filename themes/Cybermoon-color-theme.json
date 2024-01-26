@@ -1993,6 +1993,15 @@
       }
     },
     {
+      "name": "js async keyword color",
+      "scope": [
+        "storage.modifier.async.js"
+      ],
+      "settings": {
+        "foreground": "#ff8300ee",
+      }
+    },
+    {
       "name": "json numeric color",
       "scope": [
         "constant.numeric.json",
@@ -2368,7 +2377,7 @@
     "badge.background": "#300099ee",
     "badge.foreground": "#00ff9fee",
     "terminal.foreground": "#dddddd",
-    "terminal.selectionBackground": "#1d1d1d",
+    "terminal.selectionBackground": "#777777",
     "terminalCursor.background": "#565656",
     "terminalCursor.foreground": "#dddddd",
     "terminal.border": "#151515",
