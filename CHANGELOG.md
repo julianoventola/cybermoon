@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.2.3
+
+- Added async color in javascript
+- Changed terminal selection color
+
 ## 1.2.2
 
 - Adjusts contrast for folders, title bar and tabs
