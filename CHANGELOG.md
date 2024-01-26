@@ -1,5 +1,12 @@
 # Change Log
 
+## 1.2.0
+
+- Changed color contrast to match higher bright monitors
+- Added color to punctuations
+- Added new colors to c#, go, java, ruby and rust
+- Changed some colors to match the new contrast
+
 ## 1.1.0
 
 - _Changed many colors_
