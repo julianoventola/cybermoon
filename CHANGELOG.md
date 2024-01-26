@@ -1,5 +1,9 @@
 # Change Log
 
+## 1.2.1
+
+- Adjusts terminal colors to prevent conflicts with zsh
+
 ## 1.2.0
 
 - Changed color contrast to match higher bright monitors
