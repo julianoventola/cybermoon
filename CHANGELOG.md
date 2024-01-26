@@ -1,5 +1,10 @@
 # Change Log
 
+## 1.2.2
+
+- Adjusts contrast for folders, title bar and tabs
+- Changed untracked file colors
+
 ## 1.2.1
 
 - Adjusts terminal colors to prevent conflicts with zsh
